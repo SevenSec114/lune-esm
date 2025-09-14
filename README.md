@@ -9,7 +9,7 @@ This library calculates the current phase of the moon as well as finds the dates
 ## Installation
 
 ```bash
-npm install @seven_sec/lune-esm
+npm install lune-esm
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ npm install @seven_sec/lune-esm
 
 ```html
 <script type="module">
-  import { phase } from '@seven_sec/lune-esm';
+  import { phase } from 'lune-esm';
 
   const phaseInfo = phase(new Date());
   console.log(phaseInfo);
@@ -28,7 +28,7 @@ npm install @seven_sec/lune-esm
 ### In Node.js
 
 ```javascript
-import { phase, phase_hunt, phase_range, PHASE_NEW, PHASE_FIRST, PHASE_FULL, PHASE_LAST } from '@seven_sec/lune-esm';
+import { phase, phase_hunt, phase_range, PHASE_NEW, PHASE_FIRST, PHASE_FULL, PHASE_LAST } from 'lune-esm';
 
 // Get current moon phase
 const currentPhase = phase(new Date());
@@ -93,7 +93,7 @@ Find all phases of a given type within a date range.
 ## Example
 
 ```javascript
-import { phase } from '@seven_sec/lune-esm';
+import { phase } from 'lune-esm';
 
 const currentPhase = phase(new Date());
 console.log(`Moon phase: ${currentPhase.phase}`);
