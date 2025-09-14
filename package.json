@@ -1,26 +1,28 @@
 {
-  "name": "@sevensec114/lune-esm",
+  "name": "lune",
   "version": "0.4.1",
-  "description": "ES Module version of lune - calculate the phases of the moon",
+  "description": "Calculate the phases of the moon",
   "keywords": [
+    "lune",
     "moon",
-    "lunar",
     "phase",
-    "astronomy",
-    "esm"
+    "phases",
+    "lunar"
   ],
-  "homepage": "https://github.com/SevenSec114/lune-esm",
-  "bugs": {
-    "url": "https://github.com/SevenSec114/lune-esm/issues"
-  },
+  "homepage": "https://github.com/ryanseys/lune",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SevenSec114/lune-esm.git"
+    "url": "https://github.com/ryanseys/lune.git"
   },
-  "license": "Apache-2.0",
-  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ryanseys/lune/issues",
+    "email": "ryan@ryanseys.com"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "main": "lib/lune.js",
-  "module": "lib/lune.js",
+  "license": "Apache-2.0",
   "devDependencies": {
     "chai": "~4.2.0",
     "mocha": "~6.1.4",
